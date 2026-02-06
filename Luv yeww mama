@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Rose Day 💗</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff758c, #ff7eb3);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      color: white;
+      padding-top: 80px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 20px;
+    }
+    .heart {
+      font-size: 4em;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    button {
+      background: white;
+      color: #ff4f81;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background: #ffe6ec;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Happy Rose Day, Mama 🌹</h1>
+
+  <p>You are the rose that makes my life beautiful.</p>
+  <p>My favorite commit is the one where you entered my life 💻💗</p>
+
+  <div class="heart">💗</div>
+
+  <p><strong>Mama, will you be my Valentine?</strong></p>
+
+  <button onclick="sayYes()">Yes 💗</button>
+  <button onclick="sayYes()">No 💗</button>
+
+  <script>
+    function sayYes() {
+      alert("YAY!! 💗 You just said YES! Happy Valentine’s, Mama 🌹💗");
+    }
+  </script>
+
+</body>
+</html>
